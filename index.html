@@ -360,22 +360,13 @@
     <center>
         <!-- Resume Section -->
         <section id="resume a">
-            <p><strong>Want to know more about my skills and experience?</strong><br> Click the button below to download my latest resume.</p>
-            <button id="downloadBtn">Download Resume</button>
+          <p><strong>Want to know more about my skills and experience?</strong><br>
+        Click the button below to download my latest resume.</p>
+        <a href="\resume_modified.pdf" download="resume_me_developer.pdf">
+            <button>Download Resume</button>
+        </a>
         </section>
     </center>
-
-    <!-- JavaScript for Download -->
-    <script>
-        document.getElementById("downloadBtn").addEventListener("click", function() {
-            const link = document.createElement("a");
-            link.href = "/forms/resume_me_devloper.pdf";  // Ensure the correct relative path
-            link.download = "resume_me_developer.pdf";
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-    </script>
 
 </body>
 </html>
