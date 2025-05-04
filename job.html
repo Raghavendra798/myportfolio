@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details - Job Recommendation System</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div class="profile-img">
+      <img src="pho/profile_photo.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <CENTER><h1 class="sitename">Raghavendra Sai Boddu</h1></CENTER>
+    </a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="portfolio-details.html"><i class="bi bi-images navicon"></i> Projects</a></li>
+        <li><a href="service-details.html"><i class="bi bi-hdd-stack navicon"></i> Certifications</a></li>
+        <li><a href="index.html"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  .project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+  }
+  .image-container img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .image-container {
+    flex: 1;
+  }
+  .text-container {
+    flex: 2;
+  }
+  .text-container h2 {
+    color: #333;
+  }
+  .text-container p {
+    color: #555;
+    line-height: 1.6;
+  }
+  .reference a {
+    color: blue;
+    text-decoration: none;
+  }
+  .reference a:hover {
+    text-decoration: underline;
+  }
+  </style>
+
+  <main class="main">
+    <div class="page-title dark-background d-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Projects</h1>
+        <nav class="breadcrumbs">
+          <ol class="d-flex">
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+    </div>
+
+    <section id="service-details" class="service-details section">
+        <div class="container">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="assets\img\portfolio\job.png" alt="Job Recommendation System">
+                </div>
+                <div class="text-container">
+                    <h2>Job Recommendation System</h2>
+                    <p>
+                        An intelligent job recommendation system designed to match job seekers with the most relevant job opportunities based on their skills, experience, and preferences.
+                        The system utilizes **machine learning and data-driven approaches** to enhance job discovery and career growth.
+                    </p>
+                    <p>
+                        The recommendation engine analyzes job descriptions and candidate profiles to generate personalized job suggestions. It integrates **skill matching, keyword extraction, and ranking algorithms** to deliver high-accuracy recommendations.
+                    </p>
+                    <p>
+                        With **real-time filtering, an intuitive UI, and API integration**, the system ensures seamless job searching and application tracking.
+                    </p>
+                    <p><b>Key Features:</b></p>
+                    <ul>
+                        <li>Personalized job recommendations based on skills and experience</li>
+                        <li>AI-driven matching using machine learning algorithms</li>
+                        <li>Real-time job posting updates and filtering</li>
+                        <li>Interactive user dashboard with saved job options</li>
+                        <li>Integration with LinkedIn and external job boards</li>
+                        <li>Resume parsing and keyword-based job ranking</li>
+                    </ul>
+                    <p><b>Technologies Used:</b> Streamlit, Pandas, Scikit-learn</p>
+                    <p><b>Frontend:</b> Html,Css,Js</p>
+                    <p><b>database:</b> Postgrey sql</p>
+                    <p><b>Backend:</b> Python,Flask</p>
+                    <p class="reference"><b>Live Demo:</b> <a href="https://myjobrecommendation.com" target="_blank">Visit Here</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">RaghavendrasaiBoddu</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
